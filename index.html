@@ -52,28 +52,36 @@
         </div>
 
         <div class="form-item">
+          <label for="room-options">Room:</label>
+          <select id="room-options">
+            <option value=""disabled selected></option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+          </select>
 
-          <div class="contract-options">
+        </div>
+
+        <div class="form-item">
+
+          <div class="contract-labels">
           <label for="contract">Contract type:</label>
         </div>
 
         <div class="contract-options">
 
-          <input type="radio" name="contract" value="1 year" class="contract-types">
+          <input type="radio" name="contract" value="1 year" id="contract-1-year">
           <label for="1 year">1 year</label>
 
-          <input type="radio" name="contract" value="9 months" class="contract-types">
+          <input type="radio" name="contract" value="9 months" id="contract-9-months">
           <label for="9 months">9 months</label>
 
-          <input type="radio" name="contract" value="6 months" class="contract-types">
+          <input type="radio" name="contract" value="6 months" id="contract-6-months">
           <label for="6 months">6 months</label>
         </div>
-          <!-- <select id="contract-types">
-            <option value=""disabled selected></option>
-            <option value="1 Year">1 Year</option>
-            <option value="9 month">9 months</option>
-            <option value="6 month">6 months</option>
-          </select> -->
+
         </div>
 
       </div>
