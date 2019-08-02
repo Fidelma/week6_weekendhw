@@ -12,12 +12,12 @@
 
         <div class="form-item">
           <label for="first_name" class="primary">First Name:</label>
-          <input type="text" name="first_name" value="">
+          <input type="text" id="first-name" required>
         </div>
 
         <div class="form-item">
           <label for="last_name" class="primary">Last Name:</label>
-          <input type="text" name="last_name" value="">
+          <input type="text" id="last-name" required>
         </div>
 
         <div class="form-item">
@@ -55,9 +55,9 @@
           <label for="contract">Contract type:</label>
           <select id="contract-types">
             <option value=""disabled selected></option>
-            <option value="Year">1 Year</option>
-            <option value="9_month">9 months</option>
-            <option value="6_month">6 months</option>
+            <option value="1 Year">1 Year</option>
+            <option value="9 month">9 months</option>
+            <option value="6 month">6 months</option>
           </select>
         </div>
 
@@ -65,6 +65,13 @@
       <input type="submit" name="" value="save">
 
     </form>
+    <div id="delete-button">
+      <button class="delete-all" type="button" name="button">Delete All</button>
+    </div>
+
+    <div id="members-list">
+
+    </div>
 
   </body>
 </html>
