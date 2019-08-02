@@ -18,7 +18,7 @@ const handleNewFormSubmit = function (event) {
   members.appendChild(newMember);
 
 
-  event.target.reset();
+  // event.target.reset();
 }
 
 
@@ -44,17 +44,17 @@ const createNewMember = function(form) {
 
   const contract = document.createElement('h4');
   console.dir(event);
-    const oneYear = document.querySelector('#contract-1-year');
-    const nineMonths = document.querySelector('#contract-9-months');
-    const sixMonths = document.querySelector('#contract-6-months');
-
-    const handler = () => {
-      console.log('clicked');
-    }
-    
-    oneYear.onclick = handler;
-    nineMonths.onclick = handler;
-    sixMonths.onclick = handler;
+    // const oneYear = document.querySelector('#contract-1-year');
+    // const nineMonths = document.querySelector('#contract-9-months');
+    // const sixMonths = document.querySelector('#contract-6-months');
+    //
+    // const handler = () => {
+    //   console.log('clicked');
+    // }
+    //
+    // oneYear.onclick = handler;
+    // nineMonths.onclick = handler;
+    // sixMonths.onclick = handler;
 
   // const contractType = document.querySelector('.contract-options');
   // contractType.addEventListener('click', (event) => {
