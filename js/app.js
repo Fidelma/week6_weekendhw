@@ -18,13 +18,20 @@ const handleNewFormSubmit = function (event) {
   members.appendChild(newMember);
 
 
-  // event.target.reset();
+  event.target.reset();
 }
+let contractEvent;
+const getValue = function (event) {
+  contractEvent = event.target.defaultValue;
+  // return contractEvent;
+}
+
 
 
 const createNewMember = function(form) {
   const newMember = document.createElement('li');
   newMember.classList.add('new-member');
+
 
   const firstName = document.createElement('h3');
   firstName.textContent = event.target['first-name'].value;
@@ -43,7 +50,9 @@ const createNewMember = function(form) {
   newMember.appendChild(room);
 
   const contract = document.createElement('h4');
-  console.dir(event);
+  contract.textContent = contractEvent;
+
+
     // const oneYear = document.querySelector('#contract-1-year');
     // const nineMonths = document.querySelector('#contract-9-months');
     // const sixMonths = document.querySelector('#contract-6-months');
