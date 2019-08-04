@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
+
+  // let contractEvent;
+
   const form = document.querySelector('#new-item-form');
   form.addEventListener('submit',  handleNewFormSubmit);
 
@@ -20,7 +23,8 @@ const handleNewFormSubmit = function (event) {
 
   event.target.reset();
 }
-let contractEvent;
+
+
 const getValue = function (event) {
   contractEvent = event.target.defaultValue;
   // return contractEvent;

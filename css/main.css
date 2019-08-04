@@ -1,0 +1,34 @@
+form {
+  display: block;
+  padding: 20px;
+}
+
+#members-list {
+  display: flex;
+}
+
+.new-member {
+  display: inline-block;
+  margin: 10px;
+  background-color: #b2d28d;
+  padding: 10px;
+  border-radius: 5%;
+  width: 150px;
+
+}
+
+h3 {
+  display: inline-block;
+  flex-wrap: wrap;
+  padding-right: 5px;
+}
+
+#delete-button {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button {
+  background-color: red;
+  color: white;
+}
